@@ -1,0 +1,17 @@
+{
+    "name": "spbitec/lightbox2",
+    "type": "js",
+    "description": "spbitec.ru lightbox2",
+    "keywords": [],
+    "homepage": "https://spbitec.ru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VI",
+            "email": "vi@spbitec.ru"
+        },
+        {
+            "name": "VS",
+           "email": "vs@spbitec.ru"        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+   "repositories": [
+      {"type":"vcs","url":"git@github.com:spbitec/lightbox2"},
+      {"type":"vcs","url":"git@github.com:spbitec/bitrixMassLoad"},
+      {"type":"vcs","url":"git@github.com:spbitec/bitrix_site_module"},
+      {"type":"vcs","url":"git@github.com:spbitec/bitrix_site_start"},
+
+      {"type":"vcs","url":"git@github.com:desandro/masonry"},
+
+      {"type":"vcs","url":"git@github.com:FortAwesome/Font-Awesome"},
+
+
+
+      {
+         "type": "package",
+         "package": {	
+            "name": "arcticmodal/arcticmodal",
+            "version": "3.1.7",
+            "dist": {
+               "url": "https://arcticlab.ru/arcticmodal/files/jquery.arcticmodal-0.3.zip",
+               "type": "zip"
+            } 
+         }
+      },
+
+      {
+         "type": "package",
+         "package": {	
+            "name": "themify_icons",
+            "version": "1.0.0",
+            "dist": {
+               "url": "https://themify.me/download/7/",
+               "type": "zip"
+            } 
+         }
+      }
+
+   ],
+    "config":{
+	"github-oauth": {
+    	    "github.com": "c31d14c2f70ce85e85989ee5ef5de56d079c99b5"
+	 }
+    }
+      ,
+         "require": {
+            "spbitec/bitrix_site_start": "^1.0",
+            "spbitec/bitrix_site_module": "^1.0",
+
+            "spbitec/lightbox2":"^2.0",
+            "spbitec/bitrixMassLoad": "^1.0",
+            "twbs/bootstrap":"^4.0",
+
+             "FortAwesome/Font-Awesome": "^4.0",
+             "themify_icons": "1.0.0",
+             "kenwheeler/slick":"1.6.1",
+             "desandro/masonry":"4.2.0",
+             "arcticmodal/arcticmodal": "^3.0"
+         }
+}

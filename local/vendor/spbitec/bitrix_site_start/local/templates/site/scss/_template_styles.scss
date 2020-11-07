@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html{position: relative; height: auto; min-height: 100%};
+html,body{
+   font-size: 13px;
+   font-family: HelveticaNeueCyr, Arial, Helvetica, sans-serif;
+}
+
+
+body{
+   padding-bottom: 124px;
+
+   @include media-breakpoint-down(lg) { 
+      padding-bottom: 157px;
+   }   
+
+   @include media-breakpoint-down(md) { 
+      padding-bottom: 243px;
+   }
+}
+
+
+html body *:focus {outline:none}
+
+@include media-breakpoint-down(sm) { 
+   .pn{padding: 0px;}
+}
+
+

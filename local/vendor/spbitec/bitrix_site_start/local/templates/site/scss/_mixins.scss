@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* ########## mixin ############################################################################################################################################ */
+
+@mixin box-shadow($blur, $opacity) {
+   -moz-box-shadow: 0px 0px $blur rgba(0,0,0,$opacity);
+   -webkit-box-shadow: 0px 0px $blur rgba(0,0,0,$opacity);
+   box-shadow: 0px 0px $blur(0,0,0,$opacity);
+}
+
+
+@mixin block-shadow(){
+   @include box-shadow(5px,0.2);
+   border-radius: 5px;
+   padding:$spacer;
+   margin-bottom:$spacer;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin text-shadow($radius) {
+   -webkit-text-shadow: $radius;
+   -moz-text-shadow: $radius;
+   -ms-text-shadow: $radius;
+   text-shadow: $radius;
+}

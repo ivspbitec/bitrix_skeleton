@@ -1,0 +1,16 @@
+.it-help {margin:1em 0;}
+.it-help table td.it-help-nav{padding-right:2em; border-right:1px solid rgba(0,0,0,0.1); width:15%;}
+
+.it-help nav {font-size:100%; } 
+.it-help nav a{color:#535c69;}
+.it-help nav i{color:#777; font-size:85%; padding-top:0.5em; display:inline-block	}
+
+.it-help>table{margin-bottom:5rem}
+.it-help table td.it-help-text{padding-left:2em;}
+.it-help table td.it-help-text ul li{margin:1em auto}
+.it-help>hr{opacity:0.3}
+
+.it-help footer{font-size:90%; color:#666}
+.it-help footer>._right{float:right; text-align:right;}
+.it-help footer>._left{float:left; }
+.it-help footer>._left img{max-width:100%;width:30%}

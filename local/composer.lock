@@ -1,0 +1,346 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0c7af0e01f31e43cf273dda596150a34",
+    "packages": [
+        {
+            "name": "arcticmodal/arcticmodal",
+            "version": "3.1.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://arcticlab.ru/arcticmodal/files/jquery.arcticmodal-0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "desandro/masonry",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desandro/masonry.git",
+                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/masonry/zipball/dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
+                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
+                "shasum": ""
+            },
+            "type": "component",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David DeSandro",
+                    "homepage": "http://desandro.com/",
+                    "role": "developer"
+                }
+            ],
+            "description": "Cascading grid layout library",
+            "homepage": "http://masonry.desandro.com",
+            "keywords": [
+                "browser",
+                "dom",
+                "grid",
+                "javascript",
+                "layout",
+                "library",
+                "outlayer"
+            ],
+            "support": {
+                "source": "https://github.com/desandro/masonry/tree/v4.2.0",
+                "issues": "https://github.com/desandro/masonry/issues"
+            },
+            "time": "2017-04-20T18:17:46+00:00"
+        },
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "v4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "role": "Developer",
+                    "homepage": "http://twitter.com/davegandy"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "awesome",
+                "bootstrap",
+                "font",
+                "font",
+                "fontawesome",
+                "icon"
+            ],
+            "support": {
+                "source": "https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0",
+                "issues": "https://github.com/FortAwesome/Font-Awesome/issues"
+            },
+            "time": "2016-10-24T15:52:54+00:00"
+        },
+        {
+            "name": "kenwheeler/slick",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alexander2Leb/slick.git",
+                "reference": "76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alexander2Leb/slick/zipball/76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712",
+                "reference": "76f05b1f6a1bd4792cd877d2c9ae22d0c7bcb712",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-03-31T12:40:41+00:00"
+        },
+        {
+            "name": "spbitec/bitrixMassLoad",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spbitec/bitrixMassLoad.git",
+                "reference": "b5a54490d1f02dd9b5585d662e85ce620a9d739f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spbitec/bitrixMassLoad/zipball/b5a54490d1f02dd9b5585d662e85ce620a9d739f",
+                "reference": "b5a54490d1f02dd9b5585d662e85ce620a9d739f",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "spbitec ltd.",
+                    "email": "info@spbitec.ru"
+                },
+                {
+                    "name": "VI",
+                    "email": "vs@spbitec.ru"
+                }
+            ],
+            "description": "spbitec.ru bitrixMassLoad",
+            "homepage": "https://spbitec.ru",
+            "support": {
+                "source": "https://github.com/spbitec/bitrixMassLoad/tree/1.0.1",
+                "issues": "https://github.com/spbitec/bitrixMassLoad/issues"
+            },
+            "time": "2017-11-16T05:19:14+00:00"
+        },
+        {
+            "name": "spbitec/bitrix_site_module",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spbitec/bitrix_site_module.git",
+                "reference": "99fc26e4e090240a94205fe4dfcf57a5112f57a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spbitec/bitrix_site_module/zipball/99fc26e4e090240a94205fe4dfcf57a5112f57a7",
+                "reference": "99fc26e4e090240a94205fe4dfcf57a5112f57a7",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "spbitec ltd.",
+                    "email": "info@spbitec.ru"
+                },
+                {
+                    "name": "IV",
+                    "email": "iv@spbitec.ru"
+                }
+            ],
+            "description": "spbitec.ru bitrix_site_module",
+            "homepage": "https://spbitec.ru",
+            "support": {
+                "source": "https://github.com/spbitec/bitrix_site_module/tree/1.2.2",
+                "issues": "https://github.com/spbitec/bitrix_site_module/issues"
+            },
+            "time": "2018-04-24T14:05:25+00:00"
+        },
+        {
+            "name": "spbitec/bitrix_site_start",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spbitec/bitrix_site_start.git",
+                "reference": "7b8a9c311b467da515e1f20a2bd0d43431ba4bdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spbitec/bitrix_site_start/zipball/7b8a9c311b467da515e1f20a2bd0d43431ba4bdf",
+                "reference": "7b8a9c311b467da515e1f20a2bd0d43431ba4bdf",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "spbitec ltd.",
+                    "email": "info@spbitec.ru"
+                },
+                {
+                    "name": "IV",
+                    "email": "iv@spbitec.ru"
+                }
+            ],
+            "description": "First install for Bitrix sites",
+            "homepage": "https://spbitec.ru",
+            "support": {
+                "source": "https://github.com/spbitec/bitrix_site_start/tree/1.4.3",
+                "issues": "https://github.com/spbitec/bitrix_site_start/issues"
+            },
+            "time": "2018-05-25T16:13:08+00:00"
+        },
+        {
+            "name": "spbitec/lightbox2",
+            "version": "v2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivspbitec/lightbox2.git",
+                "reference": "59deb60a461dc6eadcf8d521a243a05253143700"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivspbitec/lightbox2/zipball/59deb60a461dc6eadcf8d521a243a05253143700",
+                "reference": "59deb60a461dc6eadcf8d521a243a05253143700",
+                "shasum": ""
+            },
+            "type": "js",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "VI",
+                    "email": "vi@spbitec.ru"
+                },
+                {
+                    "name": "VS",
+                    "email": "vs@spbitec.ru"
+                }
+            ],
+            "description": "spbitec.ru lightbox2",
+            "homepage": "https://spbitec.ru",
+            "support": {
+                "source": "https://github.com/ivspbitec/lightbox2/tree/v2.8.0"
+            },
+            "time": "2016-08-16T07:43:30+00:00"
+        },
+        {
+            "name": "themify_icons",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://themify.me/download/7/",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2018-04-30T16:04:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

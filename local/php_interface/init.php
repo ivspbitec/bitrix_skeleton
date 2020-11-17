@@ -176,4 +176,14 @@ function HelpMenu(&$adminMenu, &$moduleMenu){
 }
 
 
+AddEventHandler('main', 'OnPageStart', array('CMainhandlers', 'OnPageStartHandler'));
+class CMainhandlers {
+   public static function OnPageStartHandler() { 
+      if (isset($_GET['page']) && intval($_GET['page'])>0) {
+         $GLOBALS['PAGEN_1'] = $_REQUEST['PAGEN_1'] = $_GET['PAGEN_1'] = $_GET['page'];
+         unset($_GET['page'], $_REQUEST['page'], $GLOBALS['page']);
+      }
+      $GLOBALS['APPLICATION']->reinitPath();
+   }
 
+}

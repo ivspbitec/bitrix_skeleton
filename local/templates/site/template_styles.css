@@ -1,1 +1,12 @@
- 
+/** Позиционирование панели управления Битрикс в нижней части */
+#bx-panel-back,
+#bx-panel,
+#bx-panel.bx-panel-fixed {
+  user-select: none;
+  z-index: 111111 !important;
+  bottom: 0 !important;
+  top: auto !important;
+}
+#bx-panel-back {
+  height: 0 !important;
+}

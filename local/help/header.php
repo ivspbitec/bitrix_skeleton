@@ -18,14 +18,7 @@ $APPLICATION->setTitle("Документация");
 
                <nav>
                   <p><a href="?">Главная страница</a></p>
-                  <p><a href="?a=counter">Цифры на главной</a></p>
-                  <p><a href="?a=laur">Лауреаты</a></p>
-                     <i>Работа с разделом лауреатов</i>
-                  </p>
-                  <p><a href="?a=special">Специальный гость</a></p>
-                  <p><a href="?a=book">Книга</a></p>
-                  <p><a href="?a=banner">Баннер на внутренних страницах</a></p>
-                  <p><a href="?a=nominations">Номинации</a></p>
+                  <p><a href="?a=page">Страница</a></p>
                   
                   <?if ($GLOBALS['itConfig']['PERSONAL_ZONE']=='Y'):?>
                   <?endif;?>

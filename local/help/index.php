@@ -1,4 +1,6 @@
 <?
+require("header.php");
+
 header('Content-Type: text/html; charset=utf-8');
 
 ini_set('error_reporting', E_ALL);
@@ -13,8 +15,7 @@ if ($article){
 }
  
 ?>
-
-<?require("header.php");?>
+ 
 <h1>Документация по работе с сайтом<br>
    SiteTitle</h1>
 Версия 1.0, Последнее обновление 4.3.2020<br>

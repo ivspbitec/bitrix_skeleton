@@ -9,6 +9,7 @@ $page_class = $APPLICATION->GetDirProperty("page_class");
     */
 $dir = $APPLICATION->GetCurDir();
 $page = $APPLICATION->GetCurPage();
+$curLanguage = Bitrix\Main\Application::getInstance()->getContext()->getLanguage(); 
 
 if ($page=='/') $page_class='main';
 else $page_class='content';
@@ -143,7 +144,7 @@ $assets = \Bitrix\Main\Page\Asset::getInstance();
             Array(
                "AREA_FILE_RECURSIVE" => "Y",
                "AREA_FILE_SHOW" => "sect",
-               "AREA_FILE_SUFFIX" => (($APPLICATION->getCurDir()=='/' || $APPLICATION->getCurDir()=='/en/')?"main_":"")."header",      
+               "AREA_FILE_SUFFIX" => (($APPLICATION->getCurDir()=='/' || $APPLICATION->getCurDir()=='/'.$curLanguage.'/')?"main_":"")."header",      
                "EDIT_TEMPLATE" => ""
             )
          );

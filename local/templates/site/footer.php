@@ -5,7 +5,7 @@ $APPLICATION->IncludeComponent(
    Array(
       "AREA_FILE_RECURSIVE" => "Y",
       "AREA_FILE_SHOW" => "sect",
-      "AREA_FILE_SUFFIX" => (($APPLICATION->getCurDir()=='/')?"main_":"")."footer",      
+      "AREA_FILE_SUFFIX" => (($APPLICATION->getCurDir()=='/' || $APPLICATION->getCurDir()=='/'.$curLanguage.'/')?"main_":"")."footer",  
       "EDIT_TEMPLATE" => ""
    )
 );
